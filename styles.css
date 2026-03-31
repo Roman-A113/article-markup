@@ -22,13 +22,24 @@ nav ul {
     margin: 0px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 24px;
+    padding: none;
 }
 
 nav ul li {
-    margin: 20px;
+    padding: 20px 20px 20px 0px
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
 
+.content {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 18px;
+    width: 700px;
+
+}
 
 
 @media (max-width: 800px) {
